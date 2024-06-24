@@ -1,0 +1,17 @@
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\bin\Debug\net8.0-windows\HotKeys Master.exe
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\bin\Debug\net8.0-windows\HotKeys Master.deps.json
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\bin\Debug\net8.0-windows\HotKeys Master.runtimeconfig.json
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\bin\Debug\net8.0-windows\HotKeys Master.dll
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\bin\Debug\net8.0-windows\HotKeys Master.pdb
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys_Master.MainForm.resources
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.csproj.GenerateResource.cache
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.GeneratedMSBuildEditorConfig.editorconfig
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.AssemblyInfoInputs.cache
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.AssemblyInfo.cs
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.csproj.CoreCompileInputs.cache
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.dll
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\refint\HotKeys Master.dll
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.pdb
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys Master.genruntimeconfig.cache
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\ref\HotKeys Master.dll
+P:\C# Project\Desktop\HotKeys Master\HotKeys Master\obj\Debug\net8.0-windows\HotKeys_Master.Properties.Resources.resources
