@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
-    Microsoft ResX Schema
+    Microsoft ResX Schema 
 
     Version 2.0
 
@@ -48,7 +48,7 @@
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-
+    
     mimetype: application/x-microsoft.net.object.soap.base64
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
@@ -117,15 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="guna2Button2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Source Sans Pro Semibold, 14.25pt, style=Bold</value>
+  <data name="SettingsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
-  <data name="guna2Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SettingsBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
         MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAHdElNRQfoBhERJA8tlcNlAAAA
@@ -146,42 +142,39 @@
         vd/HWBdG6NuwKgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="SettingsBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 0</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="guna2Button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="SettingsBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SettingsBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>245, 80</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="guna2Button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="SettingsBtn.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="guna2Button2.Text" xml:space="preserve">
+  <data name="SettingsBtn.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
-    <value>guna2Button2</value>
+  <data name="&gt;&gt;SettingsBtn.Name" xml:space="preserve">
+    <value>SettingsBtn</value>
   </data>
-  <data name="&gt;&gt;guna2Button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;SettingsBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;guna2Button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;SettingsBtn.Parent" xml:space="preserve">
     <value>SettingsPanel</value>
   </data>
-  <data name="&gt;&gt;guna2Button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;SettingsBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2Button3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="AboutBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
-  <data name="guna2Button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Source Sans Pro Semibold, 14.25pt, style=Bold</value>
-  </data>
-  <data name="guna2Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="AboutBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
         MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAAFXIAABVyAZ6Nc+gAAAAHdElNRQfoBhERJA8tlcNlAAAA
@@ -202,40 +195,37 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="guna2Button3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="AboutBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 0</value>
   </data>
-  <data name="guna2Button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="AboutBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="guna2Button3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="AboutBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>245, 80</value>
   </data>
-  <data name="guna2Button3.TabIndex" type="System.Int32, mscorlib">
+  <data name="AboutBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="guna2Button3.Text" xml:space="preserve">
+  <data name="AboutBtn.Text" xml:space="preserve">
     <value>About</value>
   </data>
-  <data name="&gt;&gt;guna2Button3.Name" xml:space="preserve">
-    <value>guna2Button3</value>
+  <data name="&gt;&gt;AboutBtn.Name" xml:space="preserve">
+    <value>AboutBtn</value>
   </data>
-  <data name="&gt;&gt;guna2Button3.Type" xml:space="preserve">
+  <data name="&gt;&gt;AboutBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;guna2Button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AboutBtn.Parent" xml:space="preserve">
     <value>AboutPanel</value>
   </data>
-  <data name="&gt;&gt;guna2Button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;AboutBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2Button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="HomeBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
-  <data name="guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Source Sans Pro Semibold, 14.25pt, style=Bold</value>
-  </data>
-  <data name="guna2Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="HomeBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACWhSURBVHhe7d0H
@@ -402,33 +392,34 @@
         AAAAAAAAAAAAAAAAAAAAAADAobrABf4/CDqhKHyaw+cAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="HomeBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 0</value>
   </data>
-  <data name="guna2Button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="HomeBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="HomeBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>245, 80</value>
   </data>
-  <data name="guna2Button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="HomeBtn.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="guna2Button1.Text" xml:space="preserve">
+  <data name="HomeBtn.Text" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="&gt;&gt;guna2Button1.Name" xml:space="preserve">
-    <value>guna2Button1</value>
+  <data name="&gt;&gt;HomeBtn.Name" xml:space="preserve">
+    <value>HomeBtn</value>
   </data>
-  <data name="&gt;&gt;guna2Button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;HomeBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;guna2Button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;HomeBtn.Parent" xml:space="preserve">
     <value>HomePanel</value>
   </data>
-  <data name="&gt;&gt;guna2Button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;HomeBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LeftPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -443,9 +434,6 @@
   </data>
   <data name="LeftPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="LeftPanel1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;LeftPanel1.Name" xml:space="preserve">
     <value>LeftPanel1</value>
@@ -595,10 +583,10 @@
     <value>Left</value>
   </data>
   <data name="SidebarPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 30</value>
+    <value>0, 0</value>
   </data>
   <data name="SidebarPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 670</value>
+    <value>250, 700</value>
   </data>
   <data name="SidebarPanel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -619,13 +607,13 @@
     <value>Fill</value>
   </data>
   <data name="MainContent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 30</value>
+    <value>250, 0</value>
   </data>
   <data name="MainContent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="MainContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>950, 670</value>
+    <value>950, 700</value>
   </data>
   <data name="MainContent.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -642,175 +630,23 @@
   <data name="&gt;&gt;MainContent.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 17</value>
   </metadata>
+  <data name="notifyIcon1.Text" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>145</value>
+    <value>48</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1200, 700</value>
-  </data>
-  <data name="MinimizeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="MinimizeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="MinimizeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAHdElNRQfoBhgNIyHWNk3zAAAA
-        GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAADlJREFUOE9jGAWkAw4gFiQDg/QxlAHx
-        bCCeRwIGqQfpY3gDxP/JwG+BmDKbYX4WIgHD/TwKiAYMDACF1CKKYreA4wAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="MinimizeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="MinimizeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1101, 0</value>
-  </data>
-  <data name="MinimizeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="MinimizeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="MinimizeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;MinimizeButton.Name" xml:space="preserve">
-    <value>MinimizeButton</value>
-  </data>
-  <data name="&gt;&gt;MinimizeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MinimizeButton.Parent" xml:space="preserve">
-    <value>ControlPanel</value>
-  </data>
-  <data name="&gt;&gt;MinimizeButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="MaximizeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="MaximizeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="MaximizeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAAC48AAAuPAbfKjzYAAAAHdElNRQfoBhgNIS50vzLgAAAA
-        GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAM9JREFUOE+9kzsKwkAURQdrLUXdga7A
-        TiuxCwjuxdJ1WNvZ2YqrsBCX4zkTBF9M4qfwwgmT4j7uvNykirqwgxtcWrjCFoJmcIIxDGFUwwAW4ICg
-        AvblsVUOMEGOOocprEBzB9pkgmz2jmfYwBq+Mrsc76gesT82+3A56iezL+ovZpO+mJdwhB44oA7ljtxV
-        MPfhAA4wQRMWya8UzMoBJvAKz/gZ7YFnm2g/stnGvJM9sEhBdtSuOsAEVVzOBCySTQzy73CACZpwOd4x
-        Ry2V0h1XXTqJqX0WUwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="MaximizeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="MaximizeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1131, 0</value>
-  </data>
-  <data name="MaximizeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="MaximizeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="MaximizeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;MaximizeButton.Name" xml:space="preserve">
-    <value>MaximizeButton</value>
-  </data>
-  <data name="&gt;&gt;MaximizeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MaximizeButton.Parent" xml:space="preserve">
-    <value>ControlPanel</value>
-  </data>
-  <data name="&gt;&gt;MaximizeButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="CloseButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="CloseButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="CloseButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAHdElNRQfoBhgNIipY/6U6AAAA
-        GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAJFJREFUOE+tklsKhDAMRYuMf4IbHHEp
-        7sPZiQ64MH+8R5oyWOurc+FQktyk1db9Q4WoxWuN0qKOD38QiU68RUliR+Sp48MfxEQKk2jFdgAxeer4
-        ohOa4etXG5DKR/rdoRGVX1MnioSBhlF8xODj00YTO/ZiFgwgvqTHO2PYfvPRLQRZ4+2/nXXPWS8s620/
-        kHML0ggeNBCAgXkAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="CloseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="CloseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1161, 0</value>
-  </data>
-  <data name="CloseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="CloseButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="CloseButton.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;CloseButton.Name" xml:space="preserve">
-    <value>CloseButton</value>
-  </data>
-  <data name="&gt;&gt;CloseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CloseButton.Parent" xml:space="preserve">
-    <value>ControlPanel</value>
-  </data>
-  <data name="&gt;&gt;CloseButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ControlPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="ControlPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ControlPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="ControlPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1200, 30</value>
-  </data>
-  <data name="ControlPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ControlPanel.Name" xml:space="preserve">
-    <value>ControlPanel</value>
-  </data>
-  <data name="&gt;&gt;ControlPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ControlPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ControlPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2369,12 +2205,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>HotKeys Master</value>
   </data>
-  <data name="&gt;&gt;guna2BorderlessForm1.Name" xml:space="preserve">
-    <value>guna2BorderlessForm1</value>
-  </data>
-  <data name="&gt;&gt;guna2BorderlessForm1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2BorderlessForm, Guna.UI2, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
   <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
     <value>notifyIcon1</value>
   </data>
@@ -2386,11 +2216,5 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>192, 17</value>
-  </metadata>
-  <data name="notifyIcon1.Text" xml:space="preserve">
-    <value>notifyIcon1</value>
   </data>
 </root>

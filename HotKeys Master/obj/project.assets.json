@@ -179,11 +179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\C# Project\\Desktop\\Hotkeys Master\\HotKeys Master\\HotKeys Master.csproj",
+      "projectUniqueName": "P:\\C# Project\\Desktop\\HotKeys Master\\HotKeys Master.csproj",
       "projectName": "HotKeys Master",
-      "projectPath": "P:\\C# Project\\Desktop\\Hotkeys Master\\HotKeys Master\\HotKeys Master.csproj",
+      "projectPath": "P:\\C# Project\\Desktop\\HotKeys Master\\HotKeys Master.csproj",
       "packagesPath": "C:\\Users\\bread\\.nuget\\packages\\",
-      "outputPath": "P:\\C# Project\\Desktop\\Hotkeys Master\\HotKeys Master\\obj\\",
+      "outputPath": "P:\\C# Project\\Desktop\\HotKeys Master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bread\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -194,7 +194,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -246,7 +245,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

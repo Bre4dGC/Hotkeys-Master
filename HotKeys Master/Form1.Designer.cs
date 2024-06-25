@@ -36,9 +36,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            SettingsBtn = new Guna.UI2.WinForms.Guna2Button();
+            AboutBtn = new Guna.UI2.WinForms.Guna2Button();
+            HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             SidebarPanel = new FlowLayoutPanel();
             HomePanel = new Panel();
             LeftPanel1 = new Panel();
@@ -47,87 +47,80 @@
             AboutPanel = new Panel();
             LeftPanel3 = new Panel();
             MainContent = new Panel();
-            guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
-            ControlPanel = new Panel();
-            MinimizeButton = new Button();
-            MaximizeButton = new Button();
-            CloseButton = new Button();
             notifyIcon1 = new NotifyIcon(components);
             SidebarPanel.SuspendLayout();
             HomePanel.SuspendLayout();
             SettingsPanel.SuspendLayout();
             AboutPanel.SuspendLayout();
-            ControlPanel.SuspendLayout();
             SuspendLayout();
             // 
-            // guna2Button2
+            // SettingsBtn
             // 
-            guna2Button2.Animated = true;
-            guna2Button2.BackColor = Color.White;
-            guna2Button2.CheckedState.FillColor = SystemColors.Control;
-            guna2Button2.Cursor = Cursors.Hand;
-            guna2Button2.CustomizableEdges = customizableEdges1;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            resources.ApplyResources(guna2Button2, "guna2Button2");
-            guna2Button2.FillColor = Color.White;
-            guna2Button2.ForeColor = Color.FromArgb(75, 75, 75);
-            guna2Button2.HoverState.FillColor = Color.FromArgb(241, 241, 241);
-            guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
-            guna2Button2.ImageAlign = HorizontalAlignment.Left;
-            guna2Button2.ImageSize = new Size(45, 45);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.PressedColor = Color.DarkGray;
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button2.Click += guna2Button2_Click;
+            SettingsBtn.Animated = true;
+            SettingsBtn.BackColor = Color.White;
+            SettingsBtn.CheckedState.FillColor = SystemColors.ButtonShadow;
+            SettingsBtn.Cursor = Cursors.Hand;
+            SettingsBtn.CustomizableEdges = customizableEdges1;
+            SettingsBtn.DisabledState.BorderColor = Color.DarkGray;
+            SettingsBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            SettingsBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            SettingsBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            SettingsBtn.FillColor = Color.White;
+            resources.ApplyResources(SettingsBtn, "SettingsBtn");
+            SettingsBtn.ForeColor = Color.FromArgb(75, 75, 75);
+            SettingsBtn.HoverState.FillColor = Color.FromArgb(241, 241, 241);
+            SettingsBtn.Image = (Image)resources.GetObject("SettingsBtn.Image");
+            SettingsBtn.ImageAlign = HorizontalAlignment.Left;
+            SettingsBtn.ImageSize = new Size(45, 45);
+            SettingsBtn.Name = "SettingsBtn";
+            SettingsBtn.PressedColor = Color.DarkGray;
+            SettingsBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            SettingsBtn.Click += SettingsBtn_Click;
             // 
-            // guna2Button3
+            // AboutBtn
             // 
-            guna2Button3.Animated = true;
-            guna2Button3.BackColor = Color.White;
-            guna2Button3.CheckedState.FillColor = SystemColors.Control;
-            guna2Button3.Cursor = Cursors.Hand;
-            guna2Button3.CustomizableEdges = customizableEdges3;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            resources.ApplyResources(guna2Button3, "guna2Button3");
-            guna2Button3.FillColor = Color.White;
-            guna2Button3.ForeColor = Color.FromArgb(75, 75, 75);
-            guna2Button3.HoverState.FillColor = Color.FromArgb(241, 241, 241);
-            guna2Button3.Image = (Image)resources.GetObject("guna2Button3.Image");
-            guna2Button3.ImageAlign = HorizontalAlignment.Left;
-            guna2Button3.ImageSize = new Size(45, 45);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.PressedColor = Color.DarkGray;
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button3.Click += guna2Button3_Click;
+            AboutBtn.Animated = true;
+            AboutBtn.BackColor = Color.White;
+            AboutBtn.CheckedState.FillColor = SystemColors.ButtonShadow;
+            AboutBtn.Cursor = Cursors.Hand;
+            AboutBtn.CustomizableEdges = customizableEdges3;
+            AboutBtn.DisabledState.BorderColor = Color.DarkGray;
+            AboutBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            AboutBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            AboutBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            AboutBtn.FillColor = Color.White;
+            resources.ApplyResources(AboutBtn, "AboutBtn");
+            AboutBtn.ForeColor = Color.FromArgb(75, 75, 75);
+            AboutBtn.HoverState.FillColor = Color.FromArgb(241, 241, 241);
+            AboutBtn.Image = (Image)resources.GetObject("AboutBtn.Image");
+            AboutBtn.ImageAlign = HorizontalAlignment.Left;
+            AboutBtn.ImageSize = new Size(45, 45);
+            AboutBtn.Name = "AboutBtn";
+            AboutBtn.PressedColor = Color.DarkGray;
+            AboutBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            AboutBtn.Click += AboutBtn_Click;
             // 
-            // guna2Button1
+            // HomeBtn
             // 
-            guna2Button1.Animated = true;
-            guna2Button1.BackColor = Color.White;
-            guna2Button1.CheckedState.FillColor = SystemColors.Control;
-            guna2Button1.Cursor = Cursors.Hand;
-            guna2Button1.CustomizableEdges = customizableEdges5;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            resources.ApplyResources(guna2Button1, "guna2Button1");
-            guna2Button1.FillColor = Color.White;
-            guna2Button1.ForeColor = Color.FromArgb(75, 75, 75);
-            guna2Button1.HoverState.FillColor = Color.FromArgb(241, 241, 241);
-            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.ImageAlign = HorizontalAlignment.Left;
-            guna2Button1.ImageSize = new Size(45, 45);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.PressedColor = Color.DarkGray;
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button1.Click += guna2Button1_Click;
+            HomeBtn.Animated = true;
+            HomeBtn.BackColor = Color.White;
+            HomeBtn.Cursor = Cursors.Hand;
+            HomeBtn.CustomizableEdges = customizableEdges5;
+            HomeBtn.DisabledState.BorderColor = Color.DarkGray;
+            HomeBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            HomeBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            HomeBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            HomeBtn.FillColor = Color.White;
+            resources.ApplyResources(HomeBtn, "HomeBtn");
+            HomeBtn.ForeColor = Color.FromArgb(75, 75, 75);
+            HomeBtn.HoverState.FillColor = Color.FromArgb(241, 241, 241);
+            HomeBtn.Image = (Image)resources.GetObject("HomeBtn.Image");
+            HomeBtn.ImageAlign = HorizontalAlignment.Left;
+            HomeBtn.ImageSize = new Size(45, 45);
+            HomeBtn.Name = "HomeBtn";
+            HomeBtn.PressedColor = Color.DarkGray;
+            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            HomeBtn.Click += HomeBtn_Click;
             // 
             // SidebarPanel
             // 
@@ -140,7 +133,7 @@
             // 
             // HomePanel
             // 
-            HomePanel.Controls.Add(guna2Button1);
+            HomePanel.Controls.Add(HomeBtn);
             HomePanel.Controls.Add(LeftPanel1);
             resources.ApplyResources(HomePanel, "HomePanel");
             HomePanel.Name = "HomePanel";
@@ -153,7 +146,7 @@
             // 
             // SettingsPanel
             // 
-            SettingsPanel.Controls.Add(guna2Button2);
+            SettingsPanel.Controls.Add(SettingsBtn);
             SettingsPanel.Controls.Add(LeftPanel2);
             resources.ApplyResources(SettingsPanel, "SettingsPanel");
             SettingsPanel.Name = "SettingsPanel";
@@ -166,7 +159,7 @@
             // 
             // AboutPanel
             // 
-            AboutPanel.Controls.Add(guna2Button3);
+            AboutPanel.Controls.Add(AboutBtn);
             AboutPanel.Controls.Add(LeftPanel3);
             resources.ApplyResources(AboutPanel, "AboutPanel");
             AboutPanel.Name = "AboutPanel";
@@ -182,53 +175,6 @@
             resources.ApplyResources(MainContent, "MainContent");
             MainContent.Name = "MainContent";
             // 
-            // guna2BorderlessForm1
-            // 
-            guna2BorderlessForm1.BorderRadius = 30;
-            guna2BorderlessForm1.ContainerControl = this;
-            guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            guna2BorderlessForm1.TransparentWhileDrag = true;
-            // 
-            // ControlPanel
-            // 
-            ControlPanel.BackColor = Color.White;
-            ControlPanel.Controls.Add(MinimizeButton);
-            ControlPanel.Controls.Add(MaximizeButton);
-            ControlPanel.Controls.Add(CloseButton);
-            resources.ApplyResources(ControlPanel, "ControlPanel");
-            ControlPanel.Name = "ControlPanel";
-            ControlPanel.MouseDoubleClick += ControlPanel_MouseDoubleClick;
-            ControlPanel.MouseDown += ControlPanel_MouseDown;
-            ControlPanel.MouseMove += ControlPanel_MouseMove;
-            ControlPanel.MouseUp += ControlPanel_MouseUp;
-            // 
-            // MinimizeButton
-            // 
-            resources.ApplyResources(MinimizeButton, "MinimizeButton");
-            MinimizeButton.Cursor = Cursors.Hand;
-            MinimizeButton.FlatAppearance.BorderSize = 0;
-            MinimizeButton.Name = "MinimizeButton";
-            MinimizeButton.UseVisualStyleBackColor = true;
-            MinimizeButton.Click += MinimizeButton_Click;
-            // 
-            // MaximizeButton
-            // 
-            resources.ApplyResources(MaximizeButton, "MaximizeButton");
-            MaximizeButton.Cursor = Cursors.Hand;
-            MaximizeButton.FlatAppearance.BorderSize = 0;
-            MaximizeButton.Name = "MaximizeButton";
-            MaximizeButton.UseVisualStyleBackColor = true;
-            MaximizeButton.Click += MaximizeButton_Click;
-            // 
-            // CloseButton
-            // 
-            resources.ApplyResources(CloseButton, "CloseButton");
-            CloseButton.Cursor = Cursors.Hand;
-            CloseButton.FlatAppearance.BorderSize = 0;
-            CloseButton.Name = "CloseButton";
-            CloseButton.UseVisualStyleBackColor = true;
-            CloseButton.Click += CloseButton_Click;
-            // 
             // notifyIcon1
             // 
             resources.ApplyResources(notifyIcon1, "notifyIcon1");
@@ -241,35 +187,27 @@
             BackColor = Color.WhiteSmoke;
             Controls.Add(MainContent);
             Controls.Add(SidebarPanel);
-            Controls.Add(ControlPanel);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "MainForm";
             Load += MainForm_Load;
             SidebarPanel.ResumeLayout(false);
             HomePanel.ResumeLayout(false);
             SettingsPanel.ResumeLayout(false);
             AboutPanel.ResumeLayout(false);
-            ControlPanel.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
         private FlowLayoutPanel SidebarPanel;
         private Panel MainContent;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button HomeBtn;
+        private Guna.UI2.WinForms.Guna2Button SettingsBtn;
+        private Guna.UI2.WinForms.Guna2Button AboutBtn;
         private Panel LeftPanel1;
         private Panel LeftPanel2;
         private Panel LeftPanel3;
         private Panel HomePanel;
         private Panel SettingsPanel;
         private Panel AboutPanel;
-        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
-        private Panel ControlPanel;
-        private Button CloseButton;
-        private Button MaximizeButton;
-        private Button MinimizeButton;
         private NotifyIcon notifyIcon1;
     }
 }
