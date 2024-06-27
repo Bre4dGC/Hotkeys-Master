@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using Gma.System.MouseKeyHook;
 using Guna.UI2.WinForms;
 using HotKeys_Master.UserControls;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace HotKeys_Master
 {
@@ -12,7 +14,6 @@ namespace HotKeys_Master
         {
             InitializeComponent();
         }
-
 
         private void AddUserControl(UserControl userControl)
         {
