@@ -17,38 +17,18 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "MaterialSkin/0.2.1": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/MaterialSkin.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/MaterialSkin.dll": {}
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
-      },
-      "MaterialSkin.2/2.3.1": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0-windows7.0/MaterialSkin.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0-windows7.0/MaterialSkin.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
-      "MouseKeyHook/5.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
       },
       "System.CodeDom/7.0.0": {
         "type": "package",
@@ -116,49 +96,34 @@
         "lib/netcoreapp3.1/Guna.UI2.dll"
       ]
     },
-    "MaterialSkin/0.2.1": {
-      "sha512": "/6AEh6qIeNKbxsha7IHBb5s50tyvB0iZuGQPB9mjyR+mRdfQ7vnKTklwI26Y/DbrymTcg+aBHSgCgAT7/qLIrQ==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "materialskin/0.2.1",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MaterialSkin.dll",
-        "materialskin.0.2.1.nupkg.sha512",
-        "materialskin.nuspec"
-      ]
-    },
-    "MaterialSkin.2/2.3.1": {
-      "sha512": "w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
-      "type": "package",
-      "path": "materialskin.2/2.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
+        "LICENSE.md",
         "README.md",
-        "lib/net45/MaterialSkin.dll",
-        "lib/net461/MaterialSkin.dll",
-        "lib/net48/MaterialSkin.dll",
-        "lib/net5.0-windows7.0/MaterialSkin.dll",
-        "materialskin.2.2.3.1.nupkg.sha512",
-        "materialskin.2.nuspec",
-        "nugetIcon.png"
-      ]
-    },
-    "MouseKeyHook/5.7.1": {
-      "sha512": "c0VhB6cbcOpMOcoCQmvPMVqxaH76S4IPHwpbCIY7XKUNimdj9+81rX+Evnu5O53xYgUvdD7g0qmlVeZP2wGCnA==",
-      "type": "package",
-      "path": "mousekeyhook/5.7.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net472/Gma.System.MouseKeyHook.dll",
-        "lib/net48/Gma.System.MouseKeyHook.dll",
-        "lib/net6.0-windows7.0/Gma.System.MouseKeyHook.dll",
-        "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll",
-        "mouse-keyboard-hook-logo64x64.png",
-        "mousekeyhook.5.7.1.nupkg.sha512",
-        "mousekeyhook.nuspec"
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "System.CodeDom/7.0.0": {
@@ -220,9 +185,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Guna.UI2.WinForms >= 2.0.4.6",
-      "MaterialSkin >= 0.2.1",
-      "MaterialSkin.2 >= 2.3.1",
-      "MouseKeyHook >= 5.7.1"
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -231,11 +194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\C# Project\\Desktop\\New folder (2)\\HotKeys Master\\HotKeys Master.csproj",
+      "projectUniqueName": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\HotKeys Master.csproj",
       "projectName": "HotKeys Master",
-      "projectPath": "P:\\C# Project\\Desktop\\New folder (2)\\HotKeys Master\\HotKeys Master.csproj",
+      "projectPath": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\HotKeys Master.csproj",
       "packagesPath": "C:\\Users\\bread\\.nuget\\packages\\",
-      "outputPath": "P:\\C# Project\\Desktop\\New folder (2)\\HotKeys Master\\obj\\",
+      "outputPath": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bread\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -273,17 +236,9 @@
             "target": "Package",
             "version": "[2.0.4.6, )"
           },
-          "MaterialSkin": {
+          "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[0.2.1, )"
-          },
-          "MaterialSkin.2": {
-            "target": "Package",
-            "version": "[2.3.1, )"
-          },
-          "MouseKeyHook": {
-            "target": "Package",
-            "version": "[5.7.1, )"
+            "version": "[13.0.3, )"
           }
         },
         "imports": [
@@ -308,17 +263,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MaterialSkin 0.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MaterialSkin",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }
