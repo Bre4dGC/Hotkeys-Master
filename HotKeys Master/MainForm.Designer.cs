@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             SettingsBtn = new Guna.UI2.WinForms.Guna2Button();
             AboutBtn = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -47,11 +47,15 @@
             AboutPanel = new Panel();
             LeftPanel3 = new Panel();
             Notify = new NotifyIcon(components);
+            guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            открытьToolStripMenuItem = new ToolStripMenuItem();
+            закрытьToolStripMenuItem = new ToolStripMenuItem();
             MainContent = new Panel();
             SidebarPanel.SuspendLayout();
             HomePanel.SuspendLayout();
             SettingsPanel.SuspendLayout();
             AboutPanel.SuspendLayout();
+            guna2ContextMenuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // SettingsBtn
@@ -60,7 +64,7 @@
             SettingsBtn.BackColor = Color.White;
             SettingsBtn.CheckedState.FillColor = SystemColors.ButtonShadow;
             SettingsBtn.Cursor = Cursors.Hand;
-            SettingsBtn.CustomizableEdges = customizableEdges1;
+            SettingsBtn.CustomizableEdges = customizableEdges7;
             SettingsBtn.DisabledState.BorderColor = Color.DarkGray;
             SettingsBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             SettingsBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -76,7 +80,7 @@
             SettingsBtn.Margin = new Padding(0);
             SettingsBtn.Name = "SettingsBtn";
             SettingsBtn.PressedColor = Color.DarkGray;
-            SettingsBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            SettingsBtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
             SettingsBtn.ShadowDecoration.Shadow = new Padding(0);
             SettingsBtn.Size = new Size(245, 90);
             SettingsBtn.TabIndex = 1;
@@ -89,7 +93,7 @@
             AboutBtn.BackColor = Color.White;
             AboutBtn.CheckedState.FillColor = SystemColors.ButtonShadow;
             AboutBtn.Cursor = Cursors.Hand;
-            AboutBtn.CustomizableEdges = customizableEdges3;
+            AboutBtn.CustomizableEdges = customizableEdges9;
             AboutBtn.DisabledState.BorderColor = Color.DarkGray;
             AboutBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             AboutBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -105,7 +109,7 @@
             AboutBtn.Margin = new Padding(0);
             AboutBtn.Name = "AboutBtn";
             AboutBtn.PressedColor = Color.DarkGray;
-            AboutBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            AboutBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
             AboutBtn.ShadowDecoration.Shadow = new Padding(0);
             AboutBtn.Size = new Size(245, 90);
             AboutBtn.TabIndex = 2;
@@ -117,7 +121,7 @@
             HomeBtn.Animated = true;
             HomeBtn.BackColor = Color.White;
             HomeBtn.Cursor = Cursors.Hand;
-            HomeBtn.CustomizableEdges = customizableEdges5;
+            HomeBtn.CustomizableEdges = customizableEdges11;
             HomeBtn.DisabledState.BorderColor = Color.DarkGray;
             HomeBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             HomeBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -133,7 +137,7 @@
             HomeBtn.Margin = new Padding(0);
             HomeBtn.Name = "HomeBtn";
             HomeBtn.PressedColor = Color.DarkGray;
-            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
             HomeBtn.ShadowDecoration.Shadow = new Padding(0);
             HomeBtn.Size = new Size(245, 90);
             HomeBtn.TabIndex = 0;
@@ -217,12 +221,46 @@
             // 
             // Notify
             // 
-            Notify.Text = "notifyIcon1";
-            Notify.MouseDoubleClick += notifyIcon1_MouseDoubleClick;
+            Notify.BalloonTipIcon = ToolTipIcon.Info;
+            Notify.BalloonTipText = "Ваше приложение было свернуто в трей";
+            Notify.BalloonTipTitle = "Hotkey Master";
+            Notify.ContextMenuStrip = guna2ContextMenuStrip1;
+            Notify.Icon = (Icon)resources.GetObject("Notify.Icon");
+            Notify.Visible = true;
+            Notify.MouseDoubleClick += Notify_MouseDoubleClick;
+            // 
+            // guna2ContextMenuStrip1
+            // 
+            guna2ContextMenuStrip1.Items.AddRange(new ToolStripItem[] { открытьToolStripMenuItem, закрытьToolStripMenuItem });
+            guna2ContextMenuStrip1.Name = "guna2ContextMenuStrip1";
+            guna2ContextMenuStrip1.RenderStyle.ArrowColor = Color.FromArgb(151, 143, 255);
+            guna2ContextMenuStrip1.RenderStyle.BorderColor = Color.Gainsboro;
+            guna2ContextMenuStrip1.RenderStyle.ColorTable = null;
+            guna2ContextMenuStrip1.RenderStyle.RoundedEdges = true;
+            guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = Color.White;
+            guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = Color.White;
+            guna2ContextMenuStrip1.RenderStyle.SeparatorColor = Color.Gainsboro;
+            guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            guna2ContextMenuStrip1.Size = new Size(122, 48);
+            // 
+            // открытьToolStripMenuItem
+            // 
+            открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
+            открытьToolStripMenuItem.Size = new Size(121, 22);
+            открытьToolStripMenuItem.Text = "Открыть";
+            открытьToolStripMenuItem.Click += открытьToolStripMenuItem_Click;
+            // 
+            // закрытьToolStripMenuItem
+            // 
+            закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
+            закрытьToolStripMenuItem.Size = new Size(121, 22);
+            закрытьToolStripMenuItem.Text = "Закрыть";
+            закрытьToolStripMenuItem.Click += закрытьToolStripMenuItem_Click;
             // 
             // MainContent
             // 
-            MainContent.BackColor = Color.Transparent;
+            MainContent.BackColor = SystemColors.Control;
             MainContent.Dock = DockStyle.Fill;
             MainContent.Location = new Point(250, 0);
             MainContent.Margin = new Padding(0);
@@ -242,11 +280,12 @@
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "HotKeys Master";
-            Load += MainForm_Load;
+            FormClosing += MainForm_FormClosing;
             SidebarPanel.ResumeLayout(false);
             HomePanel.ResumeLayout(false);
             SettingsPanel.ResumeLayout(false);
             AboutPanel.ResumeLayout(false);
+            guna2ContextMenuStrip1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -262,6 +301,9 @@
         private Panel SettingsPanel;
         private Panel AboutPanel;
         private Panel MainContent;
-        public NotifyIcon Notify;
+        private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
+        private ToolStripMenuItem открытьToolStripMenuItem;
+        private ToolStripMenuItem закрытьToolStripMenuItem;
+        private NotifyIcon Notify;
     }
 }

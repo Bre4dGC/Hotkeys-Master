@@ -30,7 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             AddButton = new Guna.UI2.WinForms.Guna2CircleButton();
+            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            label1 = new Label();
+            guna2Panel1.SuspendLayout();
             SuspendLayout();
             // 
             // AddButton
@@ -58,20 +63,48 @@
             AddButton.TabIndex = 1;
             AddButton.Click += AddButton_Click;
             // 
+            // guna2Panel1
+            // 
+            guna2Panel1.BackColor = Color.White;
+            guna2Panel1.BorderRadius = 10;
+            guna2Panel1.Controls.Add(label1);
+            guna2Panel1.CustomizableEdges = customizableEdges2;
+            guna2Panel1.Location = new Point(23, 26);
+            guna2Panel1.Name = "guna2Panel1";
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges3;
+            guna2Panel1.Size = new Size(897, 94);
+            guna2Panel1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(30, 37);
+            label1.Name = "label1";
+            label1.Size = new Size(66, 30);
+            label1.TabIndex = 0;
+            label1.Text = "label1";
+            // 
             // UC_Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
+            BackColor = Color.Transparent;
+            Controls.Add(guna2Panel1);
             Controls.Add(AddButton);
             Margin = new Padding(0);
             Name = "UC_Home";
             Size = new Size(950, 670);
+            Load += UC_Home_Load;
+            guna2Panel1.ResumeLayout(false);
+            guna2Panel1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Guna.UI2.WinForms.Guna2CircleButton AddButton;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Label label1;
     }
 }

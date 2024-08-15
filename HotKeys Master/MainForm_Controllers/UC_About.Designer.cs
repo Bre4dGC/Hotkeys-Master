@@ -31,8 +31,6 @@
             AboutPanel1 = new Panel();
             Version = new Label();
             label1 = new Label();
-            guna2TrackBar1 = new Guna.UI2.WinForms.Guna2TrackBar();
-            guna2RatingStar1 = new Guna.UI2.WinForms.Guna2RatingStar();
             AboutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -74,31 +72,11 @@
             label1.TabIndex = 1;
             label1.Text = "Version";
             // 
-            // guna2TrackBar1
-            // 
-            guna2TrackBar1.Location = new Point(20, 150);
-            guna2TrackBar1.Name = "guna2TrackBar1";
-            guna2TrackBar1.Size = new Size(300, 23);
-            guna2TrackBar1.TabIndex = 4;
-            guna2TrackBar1.ThumbColor = Color.FromArgb(160, 113, 255);
-            guna2TrackBar1.Scroll += TrackBar_Scroll;
-            // 
-            // guna2RatingStar1
-            // 
-            guna2RatingStar1.Location = new Point(20, 198);
-            guna2RatingStar1.Name = "guna2RatingStar1";
-            guna2RatingStar1.RatingColor = Color.Gold;
-            guna2RatingStar1.Size = new Size(300, 51);
-            guna2RatingStar1.TabIndex = 5;
-            guna2RatingStar1.ValueChanged += RatingStar_ValueChanged;
-            // 
             // UC_About
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
-            Controls.Add(guna2RatingStar1);
-            Controls.Add(guna2TrackBar1);
+            BackColor = Color.Transparent;
             Controls.Add(AboutPanel1);
             Margin = new Padding(0);
             Name = "UC_About";
@@ -113,7 +91,5 @@
         private Panel AboutPanel1;
         private Label label1;
         private Label Version;
-        private Guna.UI2.WinForms.Guna2TrackBar guna2TrackBar1;
-        private Guna.UI2.WinForms.Guna2RatingStar guna2RatingStar1;
     }
 }

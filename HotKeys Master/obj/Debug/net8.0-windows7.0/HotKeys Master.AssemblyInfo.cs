@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotKeys Master")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2245f50618ac358ae32a4d6513fdde648fd99db0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc158acb7e09444ede671a941548be3eb93a2dc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotKeys Master")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotKeys Master")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

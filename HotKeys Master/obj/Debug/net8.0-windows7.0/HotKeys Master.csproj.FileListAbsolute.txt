@@ -103,4 +103,6 @@ P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotK
 P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys Master.genruntimeconfig.cache
 P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\ref\HotKeys Master.dll
 P:\C# Project\Desktop\New folder\HotKeys Master\bin\Debug\net8.0-windows7.0\Newtonsoft.Json.dll
-P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateHotkeyForm.resources
+P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateForm.resources
+P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateForm_Controllers.UC_AddHotkeyPath.resources
+P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateForm_Controllers.UC_CreateHotkey.resources

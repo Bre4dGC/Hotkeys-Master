@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace HotKeys_Master.Models
+namespace HotKeys_Master.Models.Jsons
 {
     class Json
     {

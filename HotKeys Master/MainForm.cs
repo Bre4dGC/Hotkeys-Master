@@ -1,23 +1,18 @@
-﻿using HotKeys_Master.UserControls;
+﻿using HotKeys_Master.Models;
+using HotKeys_Master.UserControls;
 
 namespace HotKeys_Master
 {
     public partial class MainForm : Form
     {
+        UC_Home UC_Home = new UC_Home();
+        UC_Settings UC_Settings = new UC_Settings();
+        UC_About UC_About = new UC_About();
+
         public MainForm()
         {
             InitializeComponent();
-
-            UC_Home uc = new UC_Home();
-            AddUserControl(uc);
-        }
-
-        private void AddUserControl(UserControl userControl)
-        {
-            userControl.Dock = DockStyle.Fill;
-            MainContent.Controls.Clear();
-            MainContent.Controls.Add(userControl);
-            userControl.BringToFront();
+            UserController.Add(MainContent, UC_Home);
         }
 
         private void PanelVisibleReset()
@@ -29,40 +24,51 @@ namespace HotKeys_Master
 
         private void HomeBtn_Click(object sender, EventArgs e)
         {
-            UC_Home uc = new UC_Home();
-            AddUserControl(uc);
+            UserController.Add(MainContent, UC_Home);
             PanelVisibleReset();
             LeftPanel1.Visible = true;
         }
 
         private void SettingsBtn_Click(object sender, EventArgs e)
         {
-            UC_Settings uc = new UC_Settings();
-            AddUserControl(uc);
+            UserController.Add(MainContent, UC_Settings);
             PanelVisibleReset();
             LeftPanel2.Visible = true;
         }
 
         private void AboutBtn_Click(object sender, EventArgs e)
         {
-            UC_About uc = new UC_About();
-            AddUserControl(uc);
+            UserController.Add(MainContent, UC_About);
             PanelVisibleReset();
             LeftPanel3.Visible = true;
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void закрытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Notify.BalloonTipTitle = "Hotkey Master";
-            Notify.BalloonTipText = "The application has switched to background mode";
-            Notify.Text = "Hotkey Master";
+            //Notify.Visible = false;
+            //Application.Exit();
         }
 
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Show();
-            Notify.Visible = false;
-            WindowState = FormWindowState.Normal;
+            //this.Show();
+            //this.WindowState = FormWindowState.Normal;
+            //this.ShowInTaskbar = true;
+        }
+
+        private void Notify_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            //this.Show();
+            //this.WindowState = FormWindowState.Normal;
+            //this.ShowInTaskbar = true;
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //e.Cancel = true;
+            //this.Hide();
+            //this.ShowInTaskbar = false;
+            //Notify.ShowBalloonTip(500);
         }
     }
 }

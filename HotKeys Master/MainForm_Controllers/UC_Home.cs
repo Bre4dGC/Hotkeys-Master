@@ -1,4 +1,6 @@
-﻿namespace HotKeys_Master.UserControls
+﻿using HotKeys_Master.Models.Hotkey;
+
+namespace HotKeys_Master.UserControls
 {
     public partial class UC_Home : UserControl
     {
@@ -9,8 +11,13 @@
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            var hotkeyForm = new CreateHotkeyForm();
+            var hotkeyForm = new CreateForm();
             hotkeyForm.ShowDialog();
+        }
+
+        private void UC_Home_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
