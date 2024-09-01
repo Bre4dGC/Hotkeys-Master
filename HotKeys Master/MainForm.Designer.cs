@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             SettingsBtn = new Guna.UI2.WinForms.Guna2Button();
             AboutBtn = new Guna.UI2.WinForms.Guna2Button();
             HomeBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -50,7 +50,7 @@
             guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             открытьToolStripMenuItem = new ToolStripMenuItem();
             закрытьToolStripMenuItem = new ToolStripMenuItem();
-            MainContent = new Panel();
+            Content = new Panel();
             SidebarPanel.SuspendLayout();
             HomePanel.SuspendLayout();
             SettingsPanel.SuspendLayout();
@@ -64,7 +64,7 @@
             SettingsBtn.BackColor = Color.White;
             SettingsBtn.CheckedState.FillColor = SystemColors.ButtonShadow;
             SettingsBtn.Cursor = Cursors.Hand;
-            SettingsBtn.CustomizableEdges = customizableEdges7;
+            SettingsBtn.CustomizableEdges = customizableEdges1;
             SettingsBtn.DisabledState.BorderColor = Color.DarkGray;
             SettingsBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             SettingsBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -80,7 +80,7 @@
             SettingsBtn.Margin = new Padding(0);
             SettingsBtn.Name = "SettingsBtn";
             SettingsBtn.PressedColor = Color.DarkGray;
-            SettingsBtn.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            SettingsBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
             SettingsBtn.ShadowDecoration.Shadow = new Padding(0);
             SettingsBtn.Size = new Size(245, 90);
             SettingsBtn.TabIndex = 1;
@@ -93,7 +93,7 @@
             AboutBtn.BackColor = Color.White;
             AboutBtn.CheckedState.FillColor = SystemColors.ButtonShadow;
             AboutBtn.Cursor = Cursors.Hand;
-            AboutBtn.CustomizableEdges = customizableEdges9;
+            AboutBtn.CustomizableEdges = customizableEdges3;
             AboutBtn.DisabledState.BorderColor = Color.DarkGray;
             AboutBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             AboutBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -109,7 +109,7 @@
             AboutBtn.Margin = new Padding(0);
             AboutBtn.Name = "AboutBtn";
             AboutBtn.PressedColor = Color.DarkGray;
-            AboutBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            AboutBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
             AboutBtn.ShadowDecoration.Shadow = new Padding(0);
             AboutBtn.Size = new Size(245, 90);
             AboutBtn.TabIndex = 2;
@@ -121,7 +121,7 @@
             HomeBtn.Animated = true;
             HomeBtn.BackColor = Color.White;
             HomeBtn.Cursor = Cursors.Hand;
-            HomeBtn.CustomizableEdges = customizableEdges11;
+            HomeBtn.CustomizableEdges = customizableEdges5;
             HomeBtn.DisabledState.BorderColor = Color.DarkGray;
             HomeBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             HomeBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -137,7 +137,7 @@
             HomeBtn.Margin = new Padding(0);
             HomeBtn.Name = "HomeBtn";
             HomeBtn.PressedColor = Color.DarkGray;
-            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            HomeBtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
             HomeBtn.ShadowDecoration.Shadow = new Padding(0);
             HomeBtn.Size = new Size(245, 90);
             HomeBtn.TabIndex = 0;
@@ -258,15 +258,15 @@
             закрытьToolStripMenuItem.Text = "Закрыть";
             закрытьToolStripMenuItem.Click += закрытьToolStripMenuItem_Click;
             // 
-            // MainContent
+            // Content
             // 
-            MainContent.BackColor = SystemColors.Control;
-            MainContent.Dock = DockStyle.Fill;
-            MainContent.Location = new Point(250, 0);
-            MainContent.Margin = new Padding(0);
-            MainContent.Name = "MainContent";
-            MainContent.Size = new Size(950, 700);
-            MainContent.TabIndex = 0;
+            Content.BackColor = SystemColors.Control;
+            Content.Dock = DockStyle.Fill;
+            Content.Location = new Point(250, 0);
+            Content.Margin = new Padding(0);
+            Content.Name = "Content";
+            Content.Size = new Size(950, 700);
+            Content.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -274,7 +274,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(1200, 700);
-            Controls.Add(MainContent);
+            Controls.Add(Content);
             Controls.Add(SidebarPanel);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
@@ -300,10 +300,10 @@
         private Panel HomePanel;
         private Panel SettingsPanel;
         private Panel AboutPanel;
-        private Panel MainContent;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
         private ToolStripMenuItem открытьToolStripMenuItem;
         private ToolStripMenuItem закрытьToolStripMenuItem;
         private NotifyIcon Notify;
+        public static Panel Content;
     }
 }

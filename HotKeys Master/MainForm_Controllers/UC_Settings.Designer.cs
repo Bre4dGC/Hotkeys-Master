@@ -28,18 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             SettingsPanel1 = new Panel();
             SettingsLabel1 = new Label();
             Theme_Switcher = new Guna.UI2.WinForms.Guna2ToggleSwitch();
@@ -85,6 +83,7 @@
             SettingsLabel1.Size = new Size(110, 24);
             SettingsLabel1.TabIndex = 1;
             SettingsLabel1.Text = "Dark Theme";
+            SettingsLabel1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Theme_Switcher
             // 
@@ -95,11 +94,11 @@
             Theme_Switcher.CheckedState.InnerBorderColor = Color.White;
             Theme_Switcher.CheckedState.InnerColor = Color.White;
             Theme_Switcher.Cursor = Cursors.Hand;
-            Theme_Switcher.CustomizableEdges = customizableEdges1;
+            Theme_Switcher.CustomizableEdges = customizableEdges11;
             Theme_Switcher.Location = new Point(420, 35);
             Theme_Switcher.Margin = new Padding(0);
             Theme_Switcher.Name = "Theme_Switcher";
-            Theme_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            Theme_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges12;
             Theme_Switcher.Size = new Size(52, 22);
             Theme_Switcher.TabIndex = 0;
             Theme_Switcher.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -141,11 +140,11 @@
             Startup_Switcher.CheckedState.InnerBorderColor = Color.White;
             Startup_Switcher.CheckedState.InnerColor = Color.White;
             Startup_Switcher.Cursor = Cursors.Hand;
-            Startup_Switcher.CustomizableEdges = customizableEdges3;
+            Startup_Switcher.CustomizableEdges = customizableEdges13;
             Startup_Switcher.Location = new Point(420, 35);
             Startup_Switcher.Margin = new Padding(0);
             Startup_Switcher.Name = "Startup_Switcher";
-            Startup_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            Startup_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges14;
             Startup_Switcher.Size = new Size(52, 22);
             Startup_Switcher.TabIndex = 1;
             Startup_Switcher.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -172,7 +171,7 @@
             Languages_combobox.BorderColor = Color.FromArgb(171, 181, 205);
             Languages_combobox.BorderRadius = 3;
             Languages_combobox.Cursor = Cursors.Hand;
-            Languages_combobox.CustomizableEdges = customizableEdges5;
+            Languages_combobox.CustomizableEdges = customizableEdges15;
             Languages_combobox.DrawMode = DrawMode.OwnerDrawFixed;
             Languages_combobox.DropDownStyle = ComboBoxStyle.DropDownList;
             Languages_combobox.FocusedColor = Color.FromArgb(171, 181, 205);
@@ -184,7 +183,7 @@
             Languages_combobox.Location = new Point(360, 30);
             Languages_combobox.Margin = new Padding(0);
             Languages_combobox.Name = "Languages_combobox";
-            Languages_combobox.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            Languages_combobox.ShadowDecoration.CustomizableEdges = customizableEdges16;
             Languages_combobox.Size = new Size(113, 36);
             Languages_combobox.StartIndex = 0;
             Languages_combobox.TabIndex = 0;
@@ -235,11 +234,11 @@
             Notification_Switcher.CheckedState.InnerBorderColor = Color.White;
             Notification_Switcher.CheckedState.InnerColor = Color.White;
             Notification_Switcher.Cursor = Cursors.Hand;
-            Notification_Switcher.CustomizableEdges = customizableEdges7;
+            Notification_Switcher.CustomizableEdges = customizableEdges17;
             Notification_Switcher.Location = new Point(420, 35);
             Notification_Switcher.Margin = new Padding(0);
             Notification_Switcher.Name = "Notification_Switcher";
-            Notification_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            Notification_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges18;
             Notification_Switcher.Size = new Size(52, 22);
             Notification_Switcher.TabIndex = 3;
             Notification_Switcher.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -268,11 +267,11 @@
             HideWindow_Switcher.CheckedState.InnerBorderColor = Color.White;
             HideWindow_Switcher.CheckedState.InnerColor = Color.White;
             HideWindow_Switcher.Cursor = Cursors.Hand;
-            HideWindow_Switcher.CustomizableEdges = customizableEdges9;
+            HideWindow_Switcher.CustomizableEdges = customizableEdges19;
             HideWindow_Switcher.Location = new Point(420, 35);
             HideWindow_Switcher.Margin = new Padding(0);
             HideWindow_Switcher.Name = "HideWindow_Switcher";
-            HideWindow_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            HideWindow_Switcher.ShadowDecoration.CustomizableEdges = customizableEdges20;
             HideWindow_Switcher.Size = new Size(52, 22);
             HideWindow_Switcher.TabIndex = 4;
             HideWindow_Switcher.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -325,17 +324,17 @@
         private Panel SettingsPanel2;
         private Panel SettingsPanel5;
         private Panel SettingsPanel1;
-        public static Guna.UI2.WinForms.Guna2ToggleSwitch Theme_Switcher;
-        public static Guna.UI2.WinForms.Guna2ToggleSwitch Startup_Switcher;
         private Label SettingsLabel1;
         private Label SettingsLabel2;
-        public static Guna.UI2.WinForms.Guna2ComboBox Languages_combobox;
         private Label SettingsLabel5;
         private Label SettingsLabel3;
         private Panel SettingsPanel3;
-        public static Guna.UI2.WinForms.Guna2ToggleSwitch Notification_Switcher;
         private Panel SettingsPanel4;
-        public static Guna.UI2.WinForms.Guna2ToggleSwitch HideWindow_Switcher;
         private Label SettingsLabel4;
+        public static Guna.UI2.WinForms.Guna2ToggleSwitch Theme_Switcher;
+        public static Guna.UI2.WinForms.Guna2ToggleSwitch Startup_Switcher;
+        public static Guna.UI2.WinForms.Guna2ComboBox Languages_combobox;
+        public static Guna.UI2.WinForms.Guna2ToggleSwitch Notification_Switcher;
+        public static Guna.UI2.WinForms.Guna2ToggleSwitch HideWindow_Switcher;
     }
 }

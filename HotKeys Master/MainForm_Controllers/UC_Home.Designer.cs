@@ -29,13 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             AddButton = new Guna.UI2.WinForms.Guna2CircleButton();
-            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            label1 = new Label();
-            guna2Panel1.SuspendLayout();
+            HotkeysList_flowpanel = new FlowLayoutPanel();
             SuspendLayout();
             // 
             // AddButton
@@ -51,11 +47,11 @@
             AddButton.ForeColor = Color.White;
             AddButton.Image = (Image)resources.GetObject("AddButton.Image");
             AddButton.ImageSize = new Size(30, 30);
-            AddButton.Location = new Point(850, 570);
+            AddButton.Location = new Point(858, 584);
             AddButton.Margin = new Padding(0);
             AddButton.Name = "AddButton";
             AddButton.ShadowDecoration.BorderRadius = 20;
-            AddButton.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            AddButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
             AddButton.ShadowDecoration.Depth = 50;
             AddButton.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             AddButton.ShadowDecoration.Shadow = new Padding(10);
@@ -63,48 +59,35 @@
             AddButton.TabIndex = 1;
             AddButton.Click += AddButton_Click;
             // 
-            // guna2Panel1
+            // HotkeysList_flowpanel
             // 
-            guna2Panel1.BackColor = Color.White;
-            guna2Panel1.BorderRadius = 10;
-            guna2Panel1.Controls.Add(label1);
-            guna2Panel1.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Location = new Point(23, 26);
-            guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges3;
-            guna2Panel1.Size = new Size(897, 94);
-            guna2Panel1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(30, 37);
-            label1.Name = "label1";
-            label1.Size = new Size(66, 30);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            HotkeysList_flowpanel.AutoScroll = true;
+            HotkeysList_flowpanel.BackColor = Color.Transparent;
+            HotkeysList_flowpanel.FlowDirection = FlowDirection.TopDown;
+            HotkeysList_flowpanel.Location = new Point(15, 13);
+            HotkeysList_flowpanel.Margin = new Padding(0);
+            HotkeysList_flowpanel.Name = "HotkeysList_flowpanel";
+            HotkeysList_flowpanel.Size = new Size(913, 641);
+            HotkeysList_flowpanel.TabIndex = 2;
+            HotkeysList_flowpanel.WrapContents = false;
             // 
             // UC_Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Transparent;
-            Controls.Add(guna2Panel1);
             Controls.Add(AddButton);
+            Controls.Add(HotkeysList_flowpanel);
+            ForeColor = Color.Transparent;
             Margin = new Padding(0);
             Name = "UC_Home";
             Size = new Size(950, 670);
-            Load += UC_Home_Load;
-            guna2Panel1.ResumeLayout(false);
-            guna2Panel1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Guna.UI2.WinForms.Guna2CircleButton AddButton;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Label label1;
+        private static FlowLayoutPanel HotkeysList_flowpanel;
     }
 }

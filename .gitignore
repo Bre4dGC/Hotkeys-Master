@@ -1,0 +1,34 @@
+# Общее
+
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Кэш, логи и сборки
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+*.cache
+*.ide
+
+# Папка с выходными файлами
+*.dll
+*.exe
+*.pdb
+*.app
+*.iso
+*.pubxml
+*.publish.xml
+
+# Настройки Visual Studio и файлы сборки
+.vscode/
+.vs/
+.gradle/
+.idea/
+.vscode/
+*.sln
+
+# Папка сборок
+Publish/

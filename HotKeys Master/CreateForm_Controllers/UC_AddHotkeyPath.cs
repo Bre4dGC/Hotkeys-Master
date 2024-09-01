@@ -1,5 +1,6 @@
-﻿ using HotKeys_Master.Models.Hotkey;
+﻿using HotKeys_Master.Models.Hotkey;
 using HotKeys_Master.Models.Jsons;
+using HotKeys_Master.UserControls;
 using System.Diagnostics;
 
 namespace HotKeys_Master.CreateForm_Controllers
@@ -9,7 +10,7 @@ namespace HotKeys_Master.CreateForm_Controllers
         private string _filePath;
         private string _url;
 
-        private Hotkeys Hotkeys = new Hotkeys();
+        private Hotkeys _hotkeys = new Hotkeys();
 
         private Keys _firstKey { get; }
         private Keys _secondKey { get; }
@@ -26,16 +27,38 @@ namespace HotKeys_Master.CreateForm_Controllers
 
         private void Create_btn_Click(object sender, EventArgs e)
         {
-            if (combobox.SelectedIndex == 0)
+            try
             {
-                Hotkeys.List.Add(new Hotkey(_firstKey, _secondKey, _lastKey, ""));
+                var deserializedHotkeysList = Json.DeserializeObject(out _hotkeys, JsonFileNames.Hotkeys).List;
+                _hotkeys.List.Union(deserializedHotkeysList);
             }
-            else if (combobox.SelectedIndex == 1)
+            catch
             {
-                Hotkeys.List.Add(new Hotkey(_firstKey, _secondKey, _lastKey, ""));
+                Json.SerializeObject(_hotkeys, JsonFileNames.Hotkeys);
+            }
+            finally
+            {
+                Hotkey hotkey;
+                if (combobox.SelectedIndex == 0)
+                {
+                    hotkey = new Hotkey(_firstKey, _secondKey, _lastKey, Path.GetFileNameWithoutExtension(_filePath), _filePath);
+                    UC_Home.AddHotkeysPanel(hotkey, hotkey.Title);
+
+                    _hotkeys.List.Add(hotkey);
+                }
+                else if (combobox.SelectedIndex == 1)
+                {
+                    hotkey = new Hotkey(_firstKey, _secondKey, _lastKey, Path.GetFileNameWithoutExtension(_filePath), _url);
+                    UC_Home.AddHotkeysPanel(hotkey, hotkey.Title);
+
+                    _hotkeys.List.Add(hotkey);
+                }
+
+                Json.SerializeObject(_hotkeys, JsonFileNames.Hotkeys);
             }
 
-            Json.SerializeObject(Hotkeys, JsonFileNames.Hotkeys);
+            Form parentForm = this.FindForm();
+            parentForm.Close();
         }
 
         private void Check_btn_Click(object sender, EventArgs e)
@@ -52,16 +75,23 @@ namespace HotKeys_Master.CreateForm_Controllers
             if (combobox.SelectedIndex == 0)
             {
                 label1.Visible = true;
-                guna2Panel1.Visible = true;
+                DragDrop_panel.Visible = true;
                 UrlPath_textbox.Visible = false;
                 Check_btn.Visible = false;
             }
 
             if (combobox.SelectedIndex == 1)
             {
-                guna2Panel1.Visible = false;
+                DragDrop_panel.Visible = false;
                 UrlPath_textbox.Visible = true;
                 Check_btn.Visible = true;
+            }
+        }
+        private void guna2Panel1_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                e.Effect = DragDropEffects.Copy;
             }
         }
 
@@ -70,27 +100,23 @@ namespace HotKeys_Master.CreateForm_Controllers
             _filePath = e.Data.GetData(DataFormats.FileDrop).ToString();
         }
 
-        private void guna2Panel1_DragEnter(object sender, DragEventArgs e)
-        {
-            if (e.Data.GetDataPresent(DataFormats.FileDrop))
-            {
-                e.Effect = DragDropEffects.Copy;
-            }
-            else
-            {
-                e.Effect = DragDropEffects.None;
-            }
-        }
 
         private void guna2Panel1_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "|*.exe*";
+            openFileDialog.Filter = "Executable files|*.exe|All files|*.*";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 _filePath = openFileDialog.FileName;
+                label1.Text = Path.GetFileNameWithoutExtension(_filePath);
             }
+        }
+
+        private void UrlPath_textbox_TextChanged(object sender, EventArgs e)
+        {
+            Check_btn.Enabled = UrlPath_textbox.TextLength >= 5 ? true : false;
+            _url = UrlPath_textbox.Text;
         }
     }
 }

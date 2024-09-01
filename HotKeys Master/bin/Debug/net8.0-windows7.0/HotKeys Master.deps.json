@@ -9,6 +9,7 @@
       "HotKeys Master/1.0.0": {
         "dependencies": {
           "Guna.UI2.WinForms": "2.0.4.6",
+          "MouseKeyHook": "5.7.1",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -23,6 +24,14 @@
           "lib/net7.0-windows7.0/Guna.UI2.dll": {
             "assemblyVersion": "2.0.4.6",
             "fileVersion": "2.0.4.6"
+          }
+        }
+      },
+      "MouseKeyHook/5.7.1": {
+        "runtime": {
+          "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll": {
+            "assemblyVersion": "5.7.1.0",
+            "fileVersion": "5.7.1.0"
           }
         }
       },
@@ -68,6 +77,13 @@
       "sha512": "sha512-NYzSJp7e47Cz3NgGCHvzadash8ycmxxUnpLg4Rr/MSYG9WDw0HOoTI4SkbDW+HbACrf6tsWYCuzWkgvjuM/O6w==",
       "path": "guna.ui2.winforms/2.0.4.6",
       "hashPath": "guna.ui2.winforms.2.0.4.6.nupkg.sha512"
+    },
+    "MouseKeyHook/5.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c0VhB6cbcOpMOcoCQmvPMVqxaH76S4IPHwpbCIY7XKUNimdj9+81rX+Evnu5O53xYgUvdD7g0qmlVeZP2wGCnA==",
+      "path": "mousekeyhook/5.7.1",
+      "hashPath": "mousekeyhook.5.7.1.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

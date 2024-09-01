@@ -106,3 +106,5 @@ P:\C# Project\Desktop\New folder\HotKeys Master\bin\Debug\net8.0-windows7.0\Newt
 P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateForm.resources
 P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateForm_Controllers.UC_AddHotkeyPath.resources
 P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.CreateForm_Controllers.UC_CreateHotkey.resources
+P:\C# Project\Desktop\New folder\HotKeys Master\obj\Debug\net8.0-windows7.0\HotKeys_Master.OverlayForm.resources
+P:\C# Project\Desktop\New folder\HotKeys Master\bin\Debug\net8.0-windows7.0\Gma.System.MouseKeyHook.dll

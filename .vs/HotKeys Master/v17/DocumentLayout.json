@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "P:\\C# Project\\Desktop\\New folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\createform_controllers\\uc_createhotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\createform_controllers\\uc_createhotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\createform_controllers\\uc_addhotkeypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\createform_controllers\\uc_addhotkeypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\models\\hotkey\\hotkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\models\\hotkey\\hotkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\mainform_controllers\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\mainform_controllers\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\mainform_controllers\\uc_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\mainform_controllers\\uc_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|P:\\C# Project\\Desktop\\New folder\\hotkeys master\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\models\\hotkey\\hotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\models\\hotkey\\hotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\mainform_controllers\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\mainform_controllers\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|p:\\c# project\\desktop\\new folder\\hotkeys master\\createform_controllers\\uc_createhotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3100F12D-2F5B-4766-88A1-FCBD57391A30}|HotKeys Master\\HotKeys Master.csproj|solutionrelative:hotkeys master\\createform_controllers\\uc_createhotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UC_Home.cs",
-              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
-              "RelativeDocumentMoniker": "HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
-              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
-              "RelativeToolTip": "HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBMAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "HotKeys Master\\MainForm.Designer.cs",
+              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm.Designer.cs",
+              "RelativeToolTip": "HotKeys Master\\MainForm.Designer.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T18:42:37.355Z"
+              "WhenOpened": "2024-08-28T10:22:12.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Hotkey.cs",
               "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\Models\\Hotkey\\Hotkey.cs",
               "RelativeDocumentMoniker": "HotKeys Master\\Models\\Hotkey\\Hotkey.cs",
               "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\Models\\Hotkey\\Hotkey.cs",
               "RelativeToolTip": "HotKeys Master\\Models\\Hotkey\\Hotkey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T17:52:14.937Z"
+              "WhenOpened": "2024-08-27T09:39:47.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm.cs",
+              "RelativeDocumentMoniker": "HotKeys Master\\MainForm.cs",
+              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm.cs",
+              "RelativeToolTip": "HotKeys Master\\MainForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwDQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "HotKeys Master",
+              "WhenOpened": "2024-08-27T09:22:40.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\Models\\Settings.cs",
+              "RelativeDocumentMoniker": "HotKeys Master\\Models\\Settings.cs",
+              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\Models\\Settings.cs",
+              "RelativeToolTip": "HotKeys Master\\Models\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:18:15.392Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Hotkeys.cs",
-              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\Models\\Hotkey\\Hotkeys.cs",
-              "RelativeDocumentMoniker": "HotKeys Master\\Models\\Hotkey\\Hotkeys.cs",
-              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\Models\\Hotkey\\Hotkeys.cs",
-              "RelativeToolTip": "HotKeys Master\\Models\\Hotkey\\Hotkeys.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Title": "UC_Settings.cs",
+              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm_Controllers\\UC_Settings.cs",
+              "RelativeDocumentMoniker": "HotKeys Master\\MainForm_Controllers\\UC_Settings.cs",
+              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm_Controllers\\UC_Settings.cs",
+              "RelativeToolTip": "HotKeys Master\\MainForm_Controllers\\UC_Settings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T17:46:23.376Z"
+              "WhenOpened": "2024-08-26T17:49:12.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UC_Home.cs",
+              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
+              "RelativeDocumentMoniker": "HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
+              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
+              "RelativeToolTip": "HotKeys Master\\MainForm_Controllers\\UC_Home.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAHQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "HotKeys Master\\MainForm_Controllers",
+              "WhenOpened": "2024-08-25T06:28:31.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UC_AddHotkeyPath.cs",
               "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\CreateForm_Controllers\\UC_AddHotkeyPath.cs",
               "RelativeDocumentMoniker": "HotKeys Master\\CreateForm_Controllers\\UC_AddHotkeyPath.cs",
               "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\CreateForm_Controllers\\UC_AddHotkeyPath.cs",
               "RelativeToolTip": "HotKeys Master\\CreateForm_Controllers\\UC_AddHotkeyPath.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T17:41:33.249Z"
+              "OverriddenGroupName": "HotKeys Master\\CreateForm_Controllers",
+              "WhenOpened": "2024-08-21T22:03:04.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "UC_CreateHotkey.cs",
               "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\CreateForm_Controllers\\UC_CreateHotkey.cs",
               "RelativeDocumentMoniker": "HotKeys Master\\CreateForm_Controllers\\UC_CreateHotkey.cs",
-              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\CreateForm_Controllers\\UC_CreateHotkey.cs",
-              "RelativeToolTip": "HotKeys Master\\CreateForm_Controllers\\UC_CreateHotkey.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwBwAAAAjAAAAAAAAAA==",
+              "ToolTip": "HotKeys Master/CreateForm_Controllers/UC_CreateHotkey.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv1gAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T16:46:52.685Z",
-              "EditorCaption": ""
+              "OverriddenGroupName": "HotKeys Master\\CreateForm_Controllers",
+              "OverriddenToolTip": "HotKeys Master/CreateForm_Controllers/UC_CreateHotkey.cs",
+              "WhenOpened": "2024-08-21T21:43:06.142Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm.cs",
+              "RelativeDocumentMoniker": "HotKeys Master\\MainForm.cs",
+              "ToolTip": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\MainForm.cs [Design]",
+              "RelativeToolTip": "HotKeys Master\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:16:52.721Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

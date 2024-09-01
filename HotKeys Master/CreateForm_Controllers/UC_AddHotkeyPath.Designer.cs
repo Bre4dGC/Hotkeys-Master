@@ -38,16 +38,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             UrlPath_textbox = new Guna.UI2.WinForms.Guna2TextBox();
             Create_btn = new Guna.UI2.WinForms.Guna2Button();
             Check_btn = new Guna.UI2.WinForms.Guna2Button();
             combobox = new Guna.UI2.WinForms.Guna2ComboBox();
-            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            DragDrop_panel = new Guna.UI2.WinForms.Guna2Panel();
             label1 = new Label();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2Panel1.SuspendLayout();
+            DragDrop_panel.SuspendLayout();
             SuspendLayout();
             // 
             // UrlPath_textbox
@@ -76,6 +73,7 @@
             UrlPath_textbox.Size = new Size(268, 36);
             UrlPath_textbox.TabIndex = 0;
             UrlPath_textbox.Visible = false;
+            UrlPath_textbox.TextChanged += UrlPath_textbox_TextChanged;
             // 
             // Create_btn
             // 
@@ -144,24 +142,24 @@
             combobox.TabIndex = 4;
             combobox.SelectedIndexChanged += guna2ComboBox1_SelectedIndexChanged;
             // 
-            // guna2Panel1
+            // DragDrop_panel
             // 
-            guna2Panel1.BackColor = Color.FromArgb(253, 253, 253);
-            guna2Panel1.BorderColor = Color.FromArgb(217, 221, 226);
-            guna2Panel1.BorderRadius = 20;
-            guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            guna2Panel1.BorderThickness = 1;
-            guna2Panel1.Controls.Add(label1);
-            guna2Panel1.CustomizableEdges = customizableEdges9;
-            guna2Panel1.Location = new Point(73, 85);
-            guna2Panel1.Margin = new Padding(0);
-            guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Panel1.Size = new Size(355, 240);
-            guna2Panel1.TabIndex = 5;
-            guna2Panel1.Click += guna2Panel1_Click;
-            guna2Panel1.DragDrop += guna2Panel1_DragDrop;
-            guna2Panel1.DragEnter += guna2Panel1_DragEnter;
+            DragDrop_panel.BackColor = Color.FromArgb(253, 253, 253);
+            DragDrop_panel.BorderColor = Color.FromArgb(217, 221, 226);
+            DragDrop_panel.BorderRadius = 20;
+            DragDrop_panel.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            DragDrop_panel.BorderThickness = 1;
+            DragDrop_panel.Controls.Add(label1);
+            DragDrop_panel.CustomizableEdges = customizableEdges9;
+            DragDrop_panel.Location = new Point(73, 85);
+            DragDrop_panel.Margin = new Padding(0);
+            DragDrop_panel.Name = "DragDrop_panel";
+            DragDrop_panel.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            DragDrop_panel.Size = new Size(355, 240);
+            DragDrop_panel.TabIndex = 5;
+            DragDrop_panel.Click += guna2Panel1_Click;
+            DragDrop_panel.DragDrop += guna2Panel1_DragDrop;
+            DragDrop_panel.DragEnter += guna2Panel1_DragEnter;
             // 
             // label1
             // 
@@ -175,43 +173,21 @@
             label1.TabIndex = 0;
             label1.Text = "Перетащите или выберите файл";
             // 
-            // guna2TextBox1
-            // 
-            guna2TextBox1.CustomizableEdges = customizableEdges11;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(155, 143);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2TextBox1.Size = new Size(200, 36);
-            guna2TextBox1.TabIndex = 6;
-            guna2TextBox1.Visible = false;
-            // 
-            // AddHotkeyPath
+            // UC_AddHotkeyPath
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(Check_btn);
-            Controls.Add(guna2TextBox1);
             Controls.Add(UrlPath_textbox);
             Controls.Add(combobox);
             Controls.Add(Create_btn);
-            Controls.Add(guna2Panel1);
+            Controls.Add(DragDrop_panel);
             Margin = new Padding(0);
-            Name = "AddHotkeyPath";
+            Name = "UC_AddHotkeyPath";
             Size = new Size(580, 420);
-            guna2Panel1.ResumeLayout(false);
-            guna2Panel1.PerformLayout();
+            DragDrop_panel.ResumeLayout(false);
+            DragDrop_panel.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -221,8 +197,7 @@
         private Guna.UI2.WinForms.Guna2Button Create_btn;
         private Guna.UI2.WinForms.Guna2Button Check_btn;
         private Guna.UI2.WinForms.Guna2ComboBox combobox;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel DragDrop_panel;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }

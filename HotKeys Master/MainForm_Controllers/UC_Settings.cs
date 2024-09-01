@@ -1,5 +1,4 @@
-﻿using Guna.UI2.WinForms;
-using HotKeys_Master.Models;
+﻿using HotKeys_Master.Models;
 using HotKeys_Master.Models.Jsons;
 
 
@@ -15,13 +14,13 @@ namespace HotKeys_Master.UserControls
 
             try
             {
-                Settings.SetSettings();
+                Settings.SetControls();
             }
             catch
             {
                 File.Delete(JsonFileNames.Settings);
             }
-        }        
+        }
 
         private void ThemeSwitcher_CheckedChanged(object sender, EventArgs e)
         {

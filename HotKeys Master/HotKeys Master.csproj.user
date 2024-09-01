@@ -22,5 +22,8 @@
     <Compile Update="MainForm_Controllers\UC_Settings.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="OverlayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

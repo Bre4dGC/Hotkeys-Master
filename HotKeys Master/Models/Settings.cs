@@ -11,7 +11,7 @@ namespace HotKeys_Master.Models
         public bool IsNotificationsEnabled { get; set; }
         public bool IsHideOnCloseEnabled { get; set; }
 
-        public void SetSettings()
+        public void SetControls()
         {
             var deserializedSettings = Json.DeserializeObject(out Settings settings, JsonFileNames.Settings);
 

@@ -1,5 +1,6 @@
 ﻿using HotKeys_Master.Models;
-using System.Windows.Forms;
+using HotKeys_Master.Models.Jsons;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace HotKeys_Master.CreateForm_Controllers
 {
@@ -24,7 +25,7 @@ namespace HotKeys_Master.CreateForm_Controllers
             CreateSecondKey(e);
             CreateLastKey(e);
 
-            OutputKeyValue();
+            OutputKeysValue(e);
 
             if (IsHotkeyBindingNone())
             {
@@ -42,9 +43,11 @@ namespace HotKeys_Master.CreateForm_Controllers
 
         private void CreateFirstKey(KeyEventArgs e)
         {
-            if (e.Control || e.Alt)
+            var isModifyKeys = e.Control || e.Alt;
+
+            if (isModifyKeys)
             {
-                FirstKey = e.Control ? Keys.Control : (e.Alt ? Keys.Alt : (e.Shift ? Keys.Shift : Keys.None));
+                FirstKey = e.Control ? Keys.Control : e.Alt ? Keys.Alt : Keys.None;
 
                 SecondKey = Keys.None;
                 LastKey = Keys.None;
@@ -53,7 +56,9 @@ namespace HotKeys_Master.CreateForm_Controllers
 
         private void CreateSecondKey(KeyEventArgs e)
         {
-            if (FirstKey is not Keys.None && e.Control || e.Shift || e.Alt)
+            var isModifyKeys = e.Control || e.Shift || e.Alt;
+
+            if (FirstKey is not Keys.None && isModifyKeys)
             {
                 SecondKey = (e.Control && e.Alt) ? Keys.Alt : (e.Control && e.Shift) ? Keys.Shift : (e.Alt && e.Shift) ? Keys.Shift : Keys.None;
 
@@ -63,17 +68,22 @@ namespace HotKeys_Master.CreateForm_Controllers
 
         private void CreateLastKey(KeyEventArgs e)
         {
-            if (FirstKey is not Keys.None && SecondKey is not Keys.None && e.KeyCode >= Keys.A && e.KeyCode <= Keys.Z)
+            var isLetterKeys = e.KeyCode >= Keys.A && e.KeyCode <= Keys.Z;
+            var isNumPadKeys = e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9;
+            var isFuncKeys = e.KeyCode >= Keys.F1 && e.KeyCode <= Keys.F24;
+            var isNumberKeys = e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9;
+
+            if (FirstKey is not Keys.None && SecondKey is not Keys.None && (isLetterKeys || isNumPadKeys || isFuncKeys || isNumberKeys))
             {
                 LastKey = e.KeyCode;
             }
         }
 
-        private void OutputKeyValue()
+        private void OutputKeysValue(KeyEventArgs e)
         {
             string keyData = (FirstKey is not Keys.None ? GetKeyName(FirstKey) + " + " : "") +
-                                 (SecondKey is not Keys.None ? SecondKey.ToString() + " + " : "") +
-                                 (LastKey is not Keys.None && LastKey != Keys.Menu && LastKey != Keys.ShiftKey ? LastKey.ToString() : "");
+                             (SecondKey is not Keys.None ? SecondKey.ToString() + " + " : "") +
+                             (LastKey is not Keys.None && LastKey != Keys.Menu && LastKey != Keys.ShiftKey ? GetNumberKeyName(LastKey, e).ToString() : "");
 
             Hotkeys_label.Text = keyData;
         }
@@ -99,6 +109,11 @@ namespace HotKeys_Master.CreateForm_Controllers
         private string GetKeyName(Keys key)
         {
             return KeyNames.ContainsKey(key) ? KeyNames[key] : key.ToString();
+        }
+
+        private char GetNumberKeyName(Keys key, KeyEventArgs e)
+        {
+            return (char)('0' + (e.KeyCode - Keys.D0));
         }
     }
 }
