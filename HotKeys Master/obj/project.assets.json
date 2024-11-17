@@ -2,254 +2,307 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "Guna.UI2.WinForms/2.0.4.6": {
-        "type": "package",
-        "dependencies": {
-          "System.Management": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0-windows7.0/Guna.UI2.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-windows7.0/Guna.UI2.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
-      "MouseKeyHook/5.7.1": {
+      "CommunityToolkit.Mvvm/8.3.2": {
         "type": "package",
         "compile": {
-          "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
-      "Newtonsoft.Json/13.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
           }
+        },
+        "build": {
+          "buildTransitive/CommunityToolkit.Mvvm.targets": {}
         }
       },
-      "System.CodeDom/7.0.0": {
+      "DarkNet/2.3.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.CodeDom.dll": {
+          "lib/netcoreapp3.1/DarkNet.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.CodeDom.dll": {
+          "lib/netcoreapp3.1/DarkNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "MahApps.Metro.IconPacks.Core/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MahApps.Metro.IconPacks.Material/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MahApps.Metro.IconPacks.Core": "5.1.0"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.Text.Json/8.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "System.Management/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.CodeDom": "7.0.0"
-        },
-        "compile": {
-          "lib/net7.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Management.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
+          "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       }
     }
   },
   "libraries": {
-    "Guna.UI2.WinForms/2.0.4.6": {
-      "sha512": "NYzSJp7e47Cz3NgGCHvzadash8ycmxxUnpLg4Rr/MSYG9WDw0HOoTI4SkbDW+HbACrf6tsWYCuzWkgvjuM/O6w==",
+    "CommunityToolkit.Mvvm/8.3.2": {
+      "sha512": "m8EolE1A0Updj68WTsZSGI6VWb6mUqHPh7QFo0kt7+JPhYMNXRS1ch8TS/oITAdcxTLrwMOp3ku1KjeG1/Zdpg==",
       "type": "package",
-      "path": "guna.ui2.winforms/2.0.4.6",
+      "path": "communitytoolkit.mvvm/8.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "guna.ui2.winforms.2.0.4.6.nupkg.sha512",
-        "guna.ui2.winforms.nuspec",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/CommunityToolkit.Mvvm.FeatureSwitches.targets",
+        "build/CommunityToolkit.Mvvm.SourceGenerators.targets",
+        "build/CommunityToolkit.Mvvm.WindowsSdk.targets",
+        "build/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.FeatureSwitches.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.SourceGenerators.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.WindowsSdk.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.3.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.pdb",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.xml",
+        "lib/net8.0/CommunityToolkit.Mvvm.dll",
+        "lib/net8.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net8.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
+    "DarkNet/2.3.0": {
+      "sha512": "yvITcWhHUAEoKet8mv7S442MbjtjhpXO/mMCXcwLAqEQrDZwSSOdWbTG2fqv7DvIEUOyZtzjmy5J4ZBiZN5gOA==",
+      "type": "package",
+      "path": "darknet/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "darknet.2.3.0.nupkg.sha512",
+        "darknet.nuspec",
         "icon.png",
-        "lib/net40/Guna.UI2.dll",
-        "lib/net45/Guna.UI2.dll",
-        "lib/net461/Guna.UI2.dll",
-        "lib/net472/Guna.UI2.dll",
-        "lib/net48/Guna.UI2.dll",
-        "lib/net6.0-windows7.0/Guna.UI2.dll",
-        "lib/net7.0-windows7.0/Guna.UI2.dll",
-        "lib/netcoreapp3.1/Guna.UI2.dll"
+        "lib/net452/DarkNet.dll",
+        "lib/net452/DarkNet.xml",
+        "lib/netcoreapp3.1/DarkNet.dll",
+        "lib/netcoreapp3.1/DarkNet.xml"
       ]
     },
-    "MouseKeyHook/5.7.1": {
-      "sha512": "c0VhB6cbcOpMOcoCQmvPMVqxaH76S4IPHwpbCIY7XKUNimdj9+81rX+Evnu5O53xYgUvdD7g0qmlVeZP2wGCnA==",
+    "MahApps.Metro.IconPacks.Core/5.1.0": {
+      "sha512": "DBvN+gsmx5iryZO4VCcrYH1iaV1o5Qwed+IZ4bElvfRqUcNs3+sqA6Y2lPYdzLDDtuEZ681fkWyEzlxe5f1pcQ==",
       "type": "package",
-      "path": "mousekeyhook/5.7.1",
+      "path": "mahapps.metro.iconpacks.core/5.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net472/Gma.System.MouseKeyHook.dll",
-        "lib/net48/Gma.System.MouseKeyHook.dll",
-        "lib/net6.0-windows7.0/Gma.System.MouseKeyHook.dll",
-        "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll",
-        "mouse-keyboard-hook-logo64x64.png",
-        "mousekeyhook.5.7.1.nupkg.sha512",
-        "mousekeyhook.nuspec"
+        "lib/net462/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net462/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net6.0-windows7.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net6.0-windows7.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.dll",
+        "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Core.xml",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Core.dll",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Core.pri",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Core.xml",
+        "logo_small.png",
+        "mahapps.metro.iconpacks.core.5.1.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.core.nuspec"
       ]
     },
-    "Newtonsoft.Json/13.0.3": {
-      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+    "MahApps.Metro.IconPacks.Material/5.1.0": {
+      "sha512": "RWh43z0Ddd3jS0ktXpU6Y2DbvaNV8gY8uBVfmOuy7LrRzcLhd0ywUkWQrH1F3m6ODIO1vgMI5vEcKgqXP58s9Q==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.3",
+      "path": "mahapps.metro.iconpacks.material/5.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.md",
-        "README.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/net6.0/Newtonsoft.Json.dll",
-        "lib/net6.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
+        "lib/net462/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net462/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net47/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net47/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net6.0-windows7.0/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net6.0-windows7.0/MahApps.Metro.IconPacks.Material.xml",
+        "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.dll",
+        "lib/net8.0-windows7.0/MahApps.Metro.IconPacks.Material.xml",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Material.dll",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Material.pri",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Material.xml",
+        "lib/uap10.0.18362/MahApps.Metro.IconPacks.Material/MahApps.Metro.IconPacks.Material.xr.xml",
+        "logo_small.png",
+        "mahapps.metro.iconpacks.material.5.1.0.nupkg.sha512",
+        "mahapps.metro.iconpacks.material.nuspec"
       ]
     },
-    "System.CodeDom/7.0.0": {
-      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+    "System.Text.Json/8.0.5": {
+      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
       "type": "package",
-      "path": "system.codedom/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.CodeDom.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "lib/net462/System.CodeDom.dll",
-        "lib/net462/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/net7.0/System.CodeDom.dll",
-        "lib/net7.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.7.0.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Management/7.0.0": {
-      "sha512": "A4jed4QUviDOm7fJNKAJObEAEkEUXmkGL/w0iyCYTzrl1rezTj8LGFHfsVst4Vb9JwFcTpboiDrvdST48avBpw==",
-      "type": "package",
-      "path": "system.management/7.0.0",
+      "path": "system.text.json/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Management.targets",
-        "lib/net462/_._",
-        "lib/net6.0/System.Management.dll",
-        "lib/net6.0/System.Management.xml",
-        "lib/net7.0/System.Management.dll",
-        "lib/net7.0/System.Management.xml",
-        "lib/netstandard2.0/System.Management.dll",
-        "lib/netstandard2.0/System.Management.xml",
-        "runtimes/win/lib/net6.0/System.Management.dll",
-        "runtimes/win/lib/net6.0/System.Management.xml",
-        "runtimes/win/lib/net7.0/System.Management.dll",
-        "runtimes/win/lib/net7.0/System.Management.xml",
-        "system.management.7.0.0.nupkg.sha512",
-        "system.management.nuspec",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/net461/System.Text.Json.targets",
+        "buildTransitive/net462/System.Text.Json.targets",
+        "buildTransitive/net6.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net462/System.Text.Json.dll",
+        "lib/net462/System.Text.Json.xml",
+        "lib/net6.0/System.Text.Json.dll",
+        "lib/net6.0/System.Text.Json.xml",
+        "lib/net7.0/System.Text.Json.dll",
+        "lib/net7.0/System.Text.Json.xml",
+        "lib/net8.0/System.Text.Json.dll",
+        "lib/net8.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.8.0.5.nupkg.sha512",
+        "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Guna.UI2.WinForms >= 2.0.4.6",
-      "MouseKeyHook >= 5.7.1",
-      "Newtonsoft.Json >= 13.0.3"
+      "CommunityToolkit.Mvvm >= 8.3.2",
+      "DarkNet >= 2.3.0",
+      "MahApps.Metro.IconPacks.Material >= 5.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bread\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Donald Dunn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\HotKeys Master.csproj",
-      "projectName": "HotKeys Master",
-      "projectPath": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\HotKeys Master.csproj",
-      "packagesPath": "C:\\Users\\bread\\.nuget\\packages\\",
-      "outputPath": "P:\\C# Project\\Desktop\\New folder\\HotKeys Master\\obj\\",
+      "projectUniqueName": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Hotkeys Master.csproj",
+      "projectName": "Hotkeys Master",
+      "projectPath": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Hotkeys Master.csproj",
+      "packagesPath": "C:\\Users\\Donald Dunn\\.nuget\\packages\\",
+      "outputPath": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bread\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Donald Dunn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows7.0"
+        "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.voids.site/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
       },
@@ -261,25 +314,24 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows7.0",
+        "targetAlias": "net8.0-windows",
         "dependencies": {
-          "Guna.UI2.WinForms": {
+          "CommunityToolkit.Mvvm": {
             "target": "Package",
-            "version": "[2.0.4.6, )"
+            "version": "[8.3.2, )"
           },
-          "MouseKeyHook": {
+          "DarkNet": {
             "target": "Package",
-            "version": "[5.7.1, )"
+            "version": "[2.3.0, )"
           },
-          "Newtonsoft.Json": {
+          "MahApps.Metro.IconPacks.Material": {
             "target": "Package",
-            "version": "[13.0.3, )"
+            "version": "[5.1.0, )"
           }
         },
         "imports": [
@@ -297,11 +349,11 @@
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
+          "Microsoft.WindowsDesktop.App.WPF": {
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

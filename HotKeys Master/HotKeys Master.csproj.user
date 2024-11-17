@@ -1,29 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
   <ItemGroup>
-    <Compile Update="CreateForm_Controllers\UC_AddHotkeyPath.cs">
-      <SubType>UserControl</SubType>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Styles\Components\NavButton.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CreateForm_Controllers\UC_CreateHotkey.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="Styles\Components\NavLogo.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CreateForm.cs">
-      <SubType>Form</SubType>
+    <Compile Update="Styles\Components\PrimaryButton.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainForm.cs">
-      <SubType>Form</SubType>
+    <Compile Update="Views\Pages\AboutView.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainForm_Controllers\UC_About.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="Views\Pages\HistoryView.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainForm_Controllers\UC_Home.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="Views\Pages\HomeView.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainForm_Controllers\UC_Settings.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="Styles\Components\HotkeyCard.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Update="OverlayForm.cs">
-      <SubType>Form</SubType>
+    <Compile Update="Views\Pages\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Styles\Components\NavButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Components\NavLogo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Components\PrimaryButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Themes\Dark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Themes\Light.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\DataTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\AboutView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\HistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Components\HotkeyCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\SettingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

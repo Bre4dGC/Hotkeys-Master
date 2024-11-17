@@ -1,0 +1,82 @@
+﻿<Window
+    x:Class="Hotkeys_Master.Views.Windows.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:comp="clr-namespace:Hotkeys_Master.Styles.Components"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:local="clr-namespace:Hotkeys_Master"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Hotkeys_Master.ViewModels"
+    Title="MainWindow"
+    Width="1280"
+    Height="760"
+    mc:Ignorable="d">
+
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
+
+    <Grid Background="{StaticResource WindowColor}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="235" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Border
+            Margin="7"
+            Background="{StaticResource ControlColor}"
+            CornerRadius="13">
+
+            <Border.Effect>
+                <DropShadowEffect
+                    BlurRadius="10"
+                    Direction="350"
+                    Opacity="0.15"
+                    ShadowDepth="0"
+                    Color="#FF364C5F" />
+            </Border.Effect>
+
+            <Grid
+                Height="250"
+                Margin="10"
+                VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <comp:NavLogo />
+
+                <comp:NavButton
+                    Grid.Row="1"
+                    Command="{Binding HomeCommand}"
+                    Icon="Home"
+                    Text="Home" />
+                <comp:NavButton
+                    Grid.Row="2"
+                    Command="{Binding HistoryCommand}"
+                    Icon="History"
+                    Text="History" />
+                <comp:NavButton
+                    Grid.Row="3"
+                    Command="{Binding SettingsCommand}"
+                    Icon="Cog"
+                    Text="Settings" />
+                <comp:NavButton
+                    Grid.Row="4"
+                    Command="{Binding AboutCommand}"
+                    Icon="InformationOutline"
+                    Text="About" />
+            </Grid>
+        </Border>
+
+        <Grid Grid.Column="1">
+            <Frame Content="{Binding CurrentView}" NavigationUIVisibility="Hidden" />
+        </Grid>
+    </Grid>
+
+</Window>
