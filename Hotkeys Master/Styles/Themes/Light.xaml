@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="ControlColor" Color="#ffffff" />
+    <SolidColorBrush x:Key="WindowColor" Color="#E9ECEF" />
+    <SolidColorBrush x:Key="PrimaryColor" Color="#3b82f6" />
+    <SolidColorBrush x:Key="AlertColor" Color="#f03e3e" />
+
+    <SolidColorBrush x:Key="ControlForeground" Color="#5A748E" />
+
+</ResourceDictionary>
