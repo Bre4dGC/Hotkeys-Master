@@ -9,9 +9,9 @@ namespace Hotkeys_Master.Styles.Components
     /// <summary>
     /// Логика взаимодействия для PrimaryButton.xaml
     /// </summary>
-    public partial class PrimaryButton : UserControl
+    public partial class ActionButton : UserControl
     {
-        public PrimaryButton()
+        public ActionButton()
         {
             InitializeComponent();
         }
@@ -26,19 +26,7 @@ namespace Hotkeys_Master.Styles.Components
         }
 
         public static readonly DependencyProperty TextProperty =
-            DependencyProperty.Register(nameof(Text), typeof(string), typeof(PrimaryButton));
-
-        /// <summary>
-        /// Button Icon
-        /// </summary>
-        public PackIconMaterialKind Icon
-        {
-            get { return (PackIconMaterialKind)GetValue(IconProperty); }
-            set { SetValue(IconProperty, value); }
-        }
-
-        public static readonly DependencyProperty IconProperty =
-            DependencyProperty.Register(nameof(Icon), typeof(PackIconMaterialKind), typeof(PrimaryButton));
+            DependencyProperty.Register(nameof(Text), typeof(string), typeof(ActionButton));
 
         /// <summary>
         /// Button Background
@@ -50,7 +38,7 @@ namespace Hotkeys_Master.Styles.Components
         }
 
         public static readonly DependencyProperty ColorProperty =
-            DependencyProperty.Register(nameof(Background), typeof(SolidColorBrush), typeof(PrimaryButton));
+            DependencyProperty.Register(nameof(Background), typeof(SolidColorBrush), typeof(ActionButton));
 
         /// <summary>
         /// Button Command
@@ -62,6 +50,6 @@ namespace Hotkeys_Master.Styles.Components
         }
 
         public static readonly DependencyProperty CommandProperty =
-            DependencyProperty.Register(nameof(Command), typeof(ICommand), typeof(PrimaryButton), new PropertyMetadata(null));
+            DependencyProperty.Register(nameof(Command), typeof(ICommand), typeof(ActionButton), new PropertyMetadata(null));
     }
 }
