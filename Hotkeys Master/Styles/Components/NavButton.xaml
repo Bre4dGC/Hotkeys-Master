@@ -12,6 +12,7 @@
 
     <UserControl.Resources>
         <Style TargetType="RadioButton">
+            <Setter Property="Cursor" Value="Hand" />
             <Setter Property="Margin" Value="0,7,0,0" />
             <Setter Property="Foreground" Value="{StaticResource ControlForeground}" />
             <Setter Property="Background" Value="{StaticResource ControlColor}" />
@@ -47,6 +48,7 @@
     <RadioButton
         x:Name="radioButton"
         Grid.Column="1"
+        IsChecked="{Binding IsChecked, RelativeSource={RelativeSource AncestorType=UserControl}}"
         Command="{Binding Command, RelativeSource={RelativeSource AncestorType=UserControl}}"
         GroupName="Nav">
 

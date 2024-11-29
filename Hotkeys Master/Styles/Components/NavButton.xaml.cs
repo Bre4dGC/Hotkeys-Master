@@ -50,5 +50,17 @@ namespace Hotkeys_Master.Styles.Components
 
         public static readonly DependencyProperty CommandProperty =
             DependencyProperty.Register(nameof(Command), typeof(ICommand), typeof(NavButton), new PropertyMetadata(null));
+
+        /// <summary>
+        /// Button IsChecked
+        /// </summary>
+        public bool IsChecked
+        {
+            get { return (bool)GetValue(CheckedProperty); }
+            set { SetValue(CheckedProperty, value); }
+        }
+
+        public static readonly DependencyProperty CheckedProperty =
+            DependencyProperty.Register(nameof(IsChecked), typeof(bool), typeof(NavButton));
     }
 }
