@@ -7,10 +7,13 @@
     xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
     xmlns:local="clr-namespace:Hotkeys_Master"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:vm="clr-namespace:Hotkeys_Master.ViewModels"
+    xmlns:vm="clr-namespace:Hotkeys_Master.ViewModels.Window"
     Title="MainWindow"
+    WindowStartupLocation="CenterScreen"
     Width="1280"
     Height="760"
+    MinWidth="750"
+    MinHeight="550"
     mc:Ignorable="d">
 
     <Window.DataContext>
@@ -53,6 +56,7 @@
 
                 <comp:NavButton
                     Grid.Row="1"
+                    IsChecked="True"
                     Command="{Binding HomeCommand}"
                     Icon="Home"
                     Text="Home" />
