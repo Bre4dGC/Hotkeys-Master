@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:view="clr-namespace:Hotkeys_Master.Views.Pages"
+    xmlns:view="clr-namespace:Hotkeys_Master.Views.Pages.Main"
     xmlns:vm="clr-namespace:Hotkeys_Master.ViewModels.Main">
 
     <DataTemplate DataType="{x:Type vm:HomeViewModel}">

@@ -13,22 +13,31 @@
     <Compile Update="Styles\Components\NavLogo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Styles\Components\PrimaryButton.xaml.cs">
+    <Compile Update="Styles\Components\ActionButton.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Pages\AboutView.xaml.cs">
+    <Compile Update="Views\Pages\Main\AboutView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Pages\HistoryView.xaml.cs">
+    <Compile Update="Views\Pages\Main\HistoryView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Pages\HomeView.xaml.cs">
+    <Compile Update="Views\Pages\Main\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Styles\Components\HotkeyCard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Pages\SettingsView.xaml.cs">
+    <Compile Update="Views\Pages\Modal\KeysBindingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Pages\Modal\PathBindingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Pages\Main\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\ModalWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -39,7 +48,7 @@
     <Page Update="Styles\Components\NavLogo.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Styles\Components\PrimaryButton.xaml">
+    <Page Update="Styles\Components\ActionButton.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\Themes\Dark.xaml">
@@ -51,22 +60,31 @@
     <Page Update="Utilities\DataTemplate.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\AboutView.xaml">
+    <Page Update="Views\Pages\Main\AboutView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\HistoryView.xaml">
+    <Page Update="Views\Pages\Main\HistoryView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\HomeView.xaml">
+    <Page Update="Views\Pages\Main\HomeView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\Components\HotkeyCard.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\SettingsView.xaml">
+    <Page Update="Views\Pages\Modal\KeysBindingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\Modal\PathBindingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\Main\SettingsView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Windows\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\ModalWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

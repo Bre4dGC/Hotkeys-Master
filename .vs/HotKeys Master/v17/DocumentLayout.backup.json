@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "P:\\C# proj\\WPF\\Hotkeys Master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\models\\hotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\models\\hotkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\viewmodels\\window\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\viewmodels\\window\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\main\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\main\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\main\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\main\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\styles\\components\\actionbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\styles\\components\\actionbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\styles\\components\\actionbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\styles\\components\\actionbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\main\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\main\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\main\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\main\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\styles\\components\\navbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\styles\\components\\navbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\utilities\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\utilities\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\styles\\components\\navbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\styles\\components\\navbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\viewmodels\\main\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\viewmodels\\main\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\modal\\keysbindingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\modal\\keysbindingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\windows\\modalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\windows\\modalwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\views\\pages\\modal\\pathbindingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\views\\pages\\modal\\pathbindingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\viewmodels\\main\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|solutionrelative:hotkeys master\\viewmodels\\main\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA265150-883D-4B5E-8524-094A3AADC0F2}|Hotkeys Master\\Hotkeys Master.csproj|p:\\c# proj\\wpf\\hotkeys master\\hotkeys master\\styles\\components\\hotkeycard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,27 +90,242 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Models\\Settings.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Models\\Settings.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Models\\Settings.cs",
+              "RelativeToolTip": "Hotkeys Master\\Models\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:27:02.85Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\App.xaml",
-              "RelativeDocumentMoniker": "Hotkeys Master\\App.xaml",
-              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\App.xaml*",
-              "RelativeToolTip": "Hotkeys Master\\App.xaml*",
+              "Title": "Hotkey.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Models\\Hotkey.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Models\\Hotkey.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Models\\Hotkey.cs",
+              "RelativeToolTip": "Hotkeys Master\\Models\\Hotkey.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:03:56.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActionButton.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\ActionButton.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Styles\\Components\\ActionButton.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\ActionButton.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Styles\\Components\\ActionButton.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T17:21:03.195Z",
+              "WhenOpened": "2024-11-29T17:31:08.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActionButton.xaml.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\ActionButton.xaml.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Styles\\Components\\ActionButton.xaml.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\ActionButton.xaml.cs",
+              "RelativeToolTip": "Hotkeys Master\\Styles\\Components\\ActionButton.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:30:33.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AboutView.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\AboutView.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\Main\\AboutView.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\AboutView.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\Main\\AboutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T17:15:40.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HistoryView.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\HistoryView.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\Main\\HistoryView.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\HistoryView.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\Main\\HistoryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T17:15:14.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SettingsView.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\SettingsView.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\Main\\SettingsView.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\SettingsView.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\Main\\SettingsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T17:15:08.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\Main\\HomeView.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Main\\HomeView.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\Main\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T15:31:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Windows\\MainWindow.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:44:13.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavButton.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\NavButton.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Styles\\Components\\NavButton.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\NavButton.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Styles\\Components\\NavButton.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T13:40:33.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\ViewModels\\Window\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\ViewModels\\Window\\MainViewModel.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\ViewModels\\Window\\MainViewModel.cs",
+              "RelativeToolTip": "Hotkeys Master\\ViewModels\\Window\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:35:37.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\ViewModels\\Main\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\ViewModels\\Main\\HomeViewModel.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\ViewModels\\Main\\HomeViewModel.cs",
+              "RelativeToolTip": "Hotkeys Master\\ViewModels\\Main\\HomeViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA4wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T17:31:31.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavButton.xaml.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\NavButton.xaml.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Styles\\Components\\NavButton.xaml.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\NavButton.xaml.cs",
+              "RelativeToolTip": "Hotkeys Master\\Styles\\Components\\NavButton.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwD8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:37:47.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataTemplate.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Utilities\\DataTemplate.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Utilities\\DataTemplate.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Utilities\\DataTemplate.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Utilities\\DataTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:54:58.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PathBindingView.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Modal\\PathBindingView.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\Modal\\PathBindingView.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Modal\\PathBindingView.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\Modal\\PathBindingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:41:39.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KeysBindingView.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Modal\\KeysBindingView.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\Modal\\KeysBindingView.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\Modal\\KeysBindingView.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\Modal\\KeysBindingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:41:25.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ModalWindow.xaml",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Windows\\ModalWindow.xaml",
+              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Windows\\ModalWindow.xaml",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Windows\\ModalWindow.xaml",
+              "RelativeToolTip": "Hotkeys Master\\Views\\Windows\\ModalWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T12:30:28.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HistoryViewModel.cs",
+              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\ViewModels\\Main\\HistoryViewModel.cs",
+              "RelativeDocumentMoniker": "Hotkeys Master\\ViewModels\\Main\\HistoryViewModel.cs",
+              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\ViewModels\\Main\\HistoryViewModel.cs",
+              "RelativeToolTip": "Hotkeys Master\\ViewModels\\Main\\HistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T10:26:12.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "HotkeyCard.xaml",
               "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Components\\HotkeyCard.xaml",
               "RelativeDocumentMoniker": "Hotkeys Master\\Styles\\Components\\HotkeyCard.xaml",
@@ -58,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "Light.xaml",
               "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Styles\\Themes\\Light.xaml",
               "RelativeDocumentMoniker": "Hotkeys Master\\Styles\\Themes\\Light.xaml",
@@ -66,18 +345,6 @@
               "RelativeToolTip": "Hotkeys Master\\Styles\\Themes\\Light.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-17T14:59:50.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HistoryView.xaml",
-              "DocumentMoniker": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\HistoryView.xaml",
-              "RelativeDocumentMoniker": "Hotkeys Master\\Views\\Pages\\HistoryView.xaml",
-              "ToolTip": "P:\\C# proj\\WPF\\Hotkeys Master\\Hotkeys Master\\Views\\Pages\\HistoryView.xaml",
-              "RelativeToolTip": "Hotkeys Master\\Views\\Pages\\HistoryView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T14:57:24.273Z",
               "EditorCaption": ""
             }
           ]
