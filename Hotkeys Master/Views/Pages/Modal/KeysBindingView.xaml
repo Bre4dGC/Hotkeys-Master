@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Hotkeys_Master.Views.Pages.Modal.KeysBindingView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Hotkeys_Master.Views.Pages.Modal"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="KeysBindingView"
+    d:DesignHeight="350"
+    d:DesignWidth="450"
+    d:Background="{StaticResource ControlColor}"
+    mc:Ignorable="d">
+
+    <Grid />
+</Page>
